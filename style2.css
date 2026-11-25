@@ -1,0 +1,253 @@
+body
+{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+#container
+{
+    width: 1400px;
+    height:1740px;
+    margin: 0 auto;
+    border: 2px solid red;
+}
+header
+{
+    width: 1400px;
+    height: 940px;
+    /* background-image: url(./刺客/微信图片_20241216171035.jpg); */
+    background-size: 1400px 940px;
+}
+article
+{
+    float: left;
+    width: 1099px;
+    height: 600px;
+    background-color: #eb7777;
+   border-right: #fe3a80 1px solid;
+}
+aside
+{
+    float: left;
+    width: 299px;
+    height: 600px;
+    background-color: #eb7777;
+    border-left: #fe3a80 1px solid;
+}
+footer{
+    border-top: red 2px solid;
+    width: 1400px;
+    height: 200px;
+    background-color: #eb7777;
+    clear: both;
+}
+#first
+{
+    font-size: 100px;
+    font-family: 隶书;
+    top: 250px;
+    left: 530px;
+    position: relative;  
+    transform: translate(-50%,-50%);
+    /* margin: 30px; */
+    padding: 0 25px; 
+    color: #fff;
+    text-shadow: 0 0 20px #ff005b;
+    /* position: relative; */
+    width: 120px;
+ }
+ #first::after
+ {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 20px;
+    z-index: -1;
+    color: #ff005b;
+    filter: blur(15px);
+
+ }
+ #first::before
+ {
+    content:  '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fe3a80;
+    z-index: -2;
+    opacity: 1;
+    filter: blur(480px);
+ }
+ #second
+{
+    font-size: 100px;
+    font-family: 隶书;
+    top: 400px;
+    left: 530px;
+    position: relative;  
+    transform: translate(-50%,-50%);
+    /* margin: 30px; */
+    padding: 0 25px; 
+    color: #fff;
+    text-shadow: 0 0 20px #ff005b;
+    /* position: relative; */
+    width: 120px;
+ }
+ #second::after
+ {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 20px;
+    z-index: -1;
+    color: #ff005b;
+    filter: blur(15px);
+
+ }
+ #second::before
+ {
+    content:  '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fe3a80;
+    z-index: -2;
+    opacity: 1;
+    filter: blur(480px);
+ }
+ #third
+{
+    font-size: 100px;
+    font-family: 隶书;
+    top: 550px;
+    left: 530px;
+    position: relative;  
+    transform: translate(-50%,-50%);
+    /* margin: 30px; */
+    padding: 0 25px; 
+    color: #fff;
+    text-shadow: 0 0 20px #ff005b;
+    /* position: relative; */
+    width: 120px;
+ }
+ #third::after
+ {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 20px;
+    z-index: -1;
+    color: #ff005b;
+    filter: blur(15px);
+
+ }
+ #third::before
+ {
+    content:  '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fe3a80;
+    z-index: -2;
+    opacity: 1;
+    filter: blur(480px);
+ }
+ #link{
+    text-decoration: none;
+    float: left;
+    top: 5px;
+    color: white;
+    left: 1260px;
+    font-size: 28px;
+    position: relative;
+ }
+ 
+ #link:hover{
+    background-color: greenyellow;
+    color: #fe3a80;
+ }
+ h1{
+    font-size: 30px;
+    color: aqua;
+    margin: 20px;
+    text-align: center;
+ }
+ p{
+    text-indent: 2em;
+    color: aquamarine;
+    font-size: 22px;
+ }
+ h1::selection{
+    background-color: #f00;
+    color: yellow;
+    
+ }
+ p::selection{
+    background-color: #f00;
+    color: yellow;
+ }
+ h2{
+    font-size: 30px;
+    color: aqua;
+    margin: 20px;
+    text-align: center;
+ }
+ h2::selection{
+    background-color: #f00;
+    color: yellow;
+    
+ }
+ .yulu{
+    text-indent: 0em;
+    color: aqua;
+    font-size: 25px;
+ }
+h3
+{
+    font-size: 50px;
+    font-family: 隶书;
+    top: 30px;
+    left: 700px;
+    position: relative;  
+    transform: translate(-50%,-50%);
+    margin: 0px;
+    padding: 0 10px; 
+    color: #fff;
+    text-shadow: 0 0 20px #ff005b;
+    /* position: relative; */
+    text-align: center;
+ }
+ h3::after
+ {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 20px;
+    z-index: -1;
+    color: #ff005b;
+    filter: blur(15px);
+
+ }
+ h3::before
+ {
+    content:  '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fe3a80;
+    z-index: -2;
+    opacity: 1;
+    filter: blur(480px);
+ }
